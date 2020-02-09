@@ -1,0 +1,40 @@
+Arguments: 
+  /usr/local/Cellar/node/12.8.1/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js add --dev -W @babel/cli @babel/core @babel/preset-react @babel/preset-env babel-core@7.0.0-bridge.0 babel-loader babel-plugin-styled-components webpack
+
+PATH: 
+  /Users/xinzhang/.krew/bin:/Users/xinzhang/projects/go_workspace/BIN:/Users/xinzhang/Library/Python/3.6/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/Users/xinzhang/google-cloud-sdk/bin:/Users/xinzhang/.krew/bin:/Users/xinzhang/projects/go_workspace/BIN:/Users/xinzhang/Library/Python/3.6/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.8.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/xinzhang/projects/node/lerna/xz-react-components-repo/package.json: Unexpected string in JSON at position 80
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "root",
+    "private": true,
+    "workspaces": [
+      "packages/*"
+    ]
+    "devDependencies": {
+      "lerna": "^3.20.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
