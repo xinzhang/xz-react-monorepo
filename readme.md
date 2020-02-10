@@ -12,3 +12,8 @@ Babel note \
 
 Add react and styled component
 yarn add --dev -W react react-dom styled-components
+
+## lerna version management
+lerna changed \
+lerna version \
+lerna publish
